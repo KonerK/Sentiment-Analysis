@@ -1,7 +1,7 @@
 # Sentiment Analysis
 
 ## The Project
-I completed the following project as part of the NLP (Natural Language Processing) module for final-year undergraduates studying Computer Science at the University of Bath. This work received a mark of 78%. An overview of the detailed report is presented below.
+I completed the following project as part of the NLP (Natural Language Processing) module for final-year undergraduates studying Computer Science at the University of Bath. An overview of the detailed report is presented below.
 
 Sentiment analysis is the process of analyzing text to determine its emotional tone (positive or negative). In this project, we explore a typical pipeline for a machine learning project, particularly an NLP one, by examining three models for sentiment analysis: Naive Bayes, Logistic Regression, and Support Vector Machines. Specifically, we investigate the effectiveness of each model in classifying the tone of a movie review (positive vs negative), with each model trained and tested using the Large Movie Review Dataset provided by Stanford. This dataset contains thousands of movie reviews collected from IMDb. We experiment with the different hyperparameters possible for each model, as finally test the best models found on the test set to compare final performance. 
 
@@ -11,6 +11,10 @@ The SentimentAnalysis.ipynb provides the code used to test these different model
 3) Train and evaluate your chosen model on the development set, iterating by examining results and deciding if adjustments are needed (given that this is an exploratory project, we know going in that we are going to experiment with different models to investigate accurcacy)
 4) When satisfied with performance on the development set, evaluate the model on the test set and report performance.
 
+The below also outlines a general pipeline for developing an ml application, as followed in this project, guided by [Ekaterina Kochmar's lecture notes ](https://ekochmar.github.io/nlp-course/):
+![GeneralMLPipeline](https://github.com/user-attachments/assets/c2616dae-f20b-4cb2-944f-7e9bba825505)
+
+## Exploring N-Grams
 My exploration specifically focused on the use of N-Grams in Sentiment Analysis. Quoting MathWorks
 > 'An n-gram is a collection of n successive items in a text document that may include words, numbers, symbols, and punctuation.'
 
@@ -32,7 +36,7 @@ The results from each model's best classifier on the test set is shown below.
 ## Conclusion & Future Work
 The best model appeared to be the Logistic Regression model, which achieved an accuracy of 87%, showing a clear improvement over the Naive Bayes model. To get a better idea of how well the model is doing, we need evaluate these results in terms of a baseline, such as human performance.
 
->  This source ([1]) explains that, when evaluating sentiment in a piece of text—specifically dealing with three sentiments (positive, negative, neutral)—human analysts tend to agree approximately 80-85% of the time.
+>  This source ([1]) states that, when evaluating sentiment in a piece of text—specifically dealing with three sentiments (positive, negative, neutral)—human analysts tend to agree approximately 80-85% of the time.
 
 The fact that these relatively simple models achieved an accuracy that meets or exceeds this baseline is noteworthy. It would be interesting to explore how more advanced models, such as BERT, could further improve this performance.
 
