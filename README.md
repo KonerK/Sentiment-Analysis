@@ -12,7 +12,8 @@ The SentimentAnalysis.ipynb provides the code used to test these different model
 4) When satisfied with performance on the development set, evaluate the model on the test set and report performance.
 
 The below also outlines a general pipeline for developing an ml application, as followed in this project, guided by [Ekaterina Kochmar's lecture notes ](https://ekochmar.github.io/nlp-course/):
-![GeneralMLPipeline](https://github.com/user-attachments/assets/c2616dae-f20b-4cb2-944f-7e9bba825505)
+
+![GeneralMLPipeline](https://github.com/user-attachments/assets/0dfca7b3-ea93-49fa-b7f5-f30b2d8fef5c)
 
 ## Exploring N-Grams
 My exploration specifically focused on the use of N-Grams in Sentiment Analysis. Quoting MathWorks
