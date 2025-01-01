@@ -1,6 +1,5 @@
 # Sentiment Analysis
 
-## The Project
 I completed the following project as part of the NLP (Natural Language Processing) module for final-year undergraduates studying Computer Science at the University of Bath. An overview of the detailed report is presented below.
 
 Sentiment analysis is the process of analyzing text to determine its emotional tone (positive or negative). In this project, we explore a typical pipeline for a machine learning project, particularly an NLP one, by examining three models for sentiment analysis: Naive Bayes, Logistic Regression, and Support Vector Machines. Specifically, we investigate the effectiveness of each model in classifying the tone of a movie review (positive vs negative), with each model trained and tested using the Large Movie Review Dataset provided by Stanford. This dataset contains thousands of movie reviews collected from IMDb. We experiment with the different hyperparameters possible for each model, as finally test the best models found on the test set to compare final performance. 
